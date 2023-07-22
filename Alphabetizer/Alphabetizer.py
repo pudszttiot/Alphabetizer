@@ -50,9 +50,7 @@ class App:
         
     def alphabetize(self):
         input_list = self.text.get("1.0", "end").split('\n')
-        input_list = [x.strip() for x in input_list if x.strip()]
-
-        if input_list:
+        if input_list := [x.strip() for x in input_list if x.strip()]:
             input_list.sort()
             output = "\n".join(input_list)
             self.output_text.configure(state='normal')
