@@ -28,7 +28,20 @@ Provide examples and guidelines on how to use your project.
 
 ## Features 
 
-List and describe the key features of your project. 
+- Clipboard Integration:
+  - The "Paste" button allows users to quickly import lists from the clipboard.
+
+- Real-Time Alphabetization:
+  - Users can instantly alphabetize their lists with a single click on the "ALPHABETIZE!" button, providing quick results.
+
+- Output Display:
+  - The alphabetized output is displayed in a visually appealing and readable format.
+
+- Copy to Clipboard:
+  - Allows user the ability to copy the alphabetized result to the clipboard with the "Copy" button.
+
+- Error Handling:
+  - The app gracefully handles empty inputs, providing feedback to users if they forget to enter a list before alphabetizing.
 
 ## Contributing 
 
